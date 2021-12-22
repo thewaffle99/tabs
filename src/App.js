@@ -13,7 +13,7 @@ function App() {
   ];
 
   const [ allTabs, setAllTabs ] = useState(tabsArray);
-  const [currentTabIndex, SetCurrentTabIndex ] = useState(0);
+  const [currentTabIndex, setCurrentTabIndex ] = useState(0);
   
 
   return (
@@ -22,7 +22,7 @@ function App() {
       <Tabs
       allTabs = { allTabs }
       currentTabIndex = { currentTabIndex }
-      SetCurrentTabIndex = { SetCurrentTabIndex}
+      setCurrentTabIndex = { setCurrentTabIndex}
       />
 
       <Results
